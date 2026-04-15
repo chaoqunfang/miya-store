@@ -1,0 +1,19 @@
+# 忽略大文件
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 数据文件
+*.json
+*.log
+*.txt
+
+# 备份
+*-backup.*
