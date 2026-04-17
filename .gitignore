@@ -1,19 +1,18 @@
-# 忽略大文件
-images/
-*.jpg
-*.jpeg
-*.png
-*.gif
-
-# Python
+# 忽略 Python 缓存
 __pycache__/
 *.py[cod]
 *.pyo
-
-# 数据文件
-*.json
 *.log
-*.txt
 
-# 备份
+# 忽略备份和临时文件
 *-backup.*
+*.tmp
+scrape_err.txt
+scrape_log.txt
+
+# 忽略数据文件 (保持仓库干净)
+*.json
+
+# 大文件用 LFS (取消注释下面两行来启用)
+# images/
+# !images/.gitkeep
